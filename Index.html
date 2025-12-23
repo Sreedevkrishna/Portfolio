@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <title></title>
+    <link rel="stylesheet" href="StyleSheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <ul id="sidemenu">
+                <a href="#" style="--i:1" class="active">Home</a>
+                <a href="#about" style="--i:2">About</a>
+                <a href="#Skills" style="--i:3">Skill</a>
+                <a href="#services" style="--i:4">Services</a>
+                <a href="#project" style="--i:4">Project</a>
+                <a href="#contact" style="--i:5">Contact</a>
+                      <i class="bx bx-x" id ="navCloseIcon" onclick="closemenu()"></i>
+            </ul>
+            <i class="bx bx-menu" id ="navIcon" onclick="openmenu()"></i>
+
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-Content">
+            <h3>Hello, It's Me</h3>
+            <h1>Sreedev krishna</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>I'm a Full Stack .Net developer with extensive experience for over 2 years.</p>
+            <b>expertise is to Develop supply chain managementr projects with accurate results</b>
+            <div class="home-sci">
+                <a href="#" style="--i:7"><i class='bx bxl-facebook'></i></a>
+                <a href="#" style="--i:8"><i class='bx bxl-instagram'></i></a>
+                <a href="#" style="--i:9"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+            <a href="#" class="btn-box">More about me</a>
+        </div>
+        <div class="home-img">
+            <img src="Images\SRKIMG.jpg" alt="">
+        </div>
+    </section>
+    <Section class="about" id="about">
+        <div class="about-img">
+            <img src="Images\BackGround.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Full Stack Developer</h4>
+            <p>I am a Creative and results-driven .NET Developer with over 2.5 years of experience delivering efficient
+                , high-quality solutions in the logistics and supply chain management sector.
+                I hold a BCA and an M.Sc. in Computer Science,and bring deep expertise in ASP.NET MVC, VB.NET, C#, HTML,
+                CSS, and JavaScript. I thrive in collaborative environments and consistently
+                contribute to successful project outcomes. Currently Working at Planvisage Software Solutions, I
+                continuously sharpen my skills—most recently through .NET and Java training at ClaySys
+                Technologies—to stay ahead of emerging technologies and maximize my impact as a developer. Built and
+                enhanced user-centric custom modules and UI screens, collaborating closely with
+                functional teams and using Azure DevOps and GitHub for version control, CI/CD, and agile
+                delivery.Designed and implemented data access layers and business logic layers using VB.NET
+                and MS SQL Server, optimized for large datasets and complex manufacturing process flows.Partnered with
+                cross-functional teams and clients to implement production planning and
+                scheduling logic across multiple manufacturing domains, including pharma, textiles, automotive, and
+                engineering industries. Utilized ASP.NET, VB.NET, SQL Server, JavaScript,jQuery,
+                HTML, and CSS for responsive web-based solutions.Managed existing products, delivering technical support
+                and enhancing client satisfactionDeveloped user-friendly interfaces using HTML,
+                CSS, and JavaScript for improved usability</p>
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
+    </Section>
+    <section>
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-title">My <span>Services</span></h1>
+                <div class="services-list">
+                    <div>
+                        <i class='bx  bx-code' style='color:#00eeff'></i>
+                        <h2>Web Development</h2>
+                        <p>I build custom, high-performance web applications tailored specifically to your business needs.
+                            From initial concept and design to deployment and maintenance, my services cover the entire 
+                            development lifecycle. I focus on creating scalable, secure, and user-friendly solutions that 
+                            streamline operations and enhance user experience.</p>
+                        <a href="#" class="read">learn more</a>
+                    </div>
+                    <div>
+                        <i class='bx  bx-crop' style='color:#00eeff'></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Building a unified set of reusable UI components (buttons, forms, navigation elements) for consistency 
+                           and faster development. The goal is to design products that drive higher conversions, foster user loyalty, 
+                           and require less development rework.</p>
+                        <a href="#" class="read">learn more</a>
+                    </div>
+                    <div>
+                        <i class='bx  bxl-apple' style='color:#00eeff'></i>
+                        <h2>Developement with ML</h2>
+                        <p>I offer specialized services to integrate the power of Machine Learning and Artificial Intelligence (AI) 
+                            directly into your products and business processes. This allows your applications to move beyond static logic, 
+                            providing dynamic, data-driven decisions and personalized user experiences</p>
+                        <a href="#" class="read">learn more</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <h1 class="sub-title">My <span>Skills</span></h1>
+    <section class ="skill">
+        <div class="container1" id="Skills">
+            <h1 class="heading1"> Technical Skills</h1>
+            <div class="Technical-bars">
+                <div class="bar"><i style="color:#2cd1e0" class="bxl bx-c-sharp"></i>
+                    <div class="info">
+                        <span>.NET core</span>
+                    </div>
+                    <div class="progress-line dotnet">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color:#f33a0c" class="bx bxl-html5"></i>
+                    <div class="info">
+                        <span>HTML</span>
+                    </div>
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color:#f3ef04" class="bx bxl-css3"></i>
+                    <div class="info">
+                        <span>CSS</span>
+                    </div>
+                    <div class="progress-line css">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color:#0895ec" class="bx bxl-javascript"></i>
+                    <div class="info">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="progress-line javascript">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color:#850be9" class="bx bxl-jquery"></i>
+                    <div class="info">
+                        <span>JQuery</span>
+                    </div>
+                    <div class="progress-line jquery">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container1" >
+            <h1 class="heading1">Professional Skills</h1>
+            <div class="radial-bars">
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">95%</div>
+                    <div class="text">Problem Solving & Critical Thinking</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">80%</div>
+                    <div class="text">Adaptability & Flexibility</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">85%</div>
+                    <div class="text">Project Management</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">80%</div>
+                    <div class="text">Communication</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div id="portfolio" id="project">
+            <div class="main-text" id="project">
+                <h2 class = "sub-title">Latest <span>Project</span></h2>
+                <div class="portfolio-content">
+                    <div class="row">
+                        <img src="Images\icds.jpg">
+                        <div class="layer">
+                            <h5>ICDS Using JAVA</h5>
+                            <p>The project ICDS is a website based on intranet that aims to provide food , preschool education , primary
+                                healthcare , immunization , health check-up and referral services to children under 6 years of age and
+                                their mothers</p>
+                            <a href="#"><i class="bx bx-link-external" style="color: aliceblue;"></i></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="Images\imageEnhancement.jpg">
+                        <div class="layer">
+                            <h5>MEIF Using ML</h5>
+                            <p>Multi-exposure image fusion technique using a Contest aggregation network is a
+                               technique that fuses images with different exposures to obtain a well-exposed image with better
+                               details. The method builds a well-exposed image using a bilinear down-sampler, a CAN, a
+                               guided filter, a color dissimilarity module, and a weighted fusion module.</p>
+                            <a href="#"><i class="bx bx-link-external" style="color: aliceblue;"></i></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="Images\vehicle.jpg">
+                        <div class="layer">
+                            <h5>Vehicle detection</h5>
+                            <p>Vehicle detection using YOLO V5 is A machine learning based project for detecting vehicle 
+                                based on their category from Realtime video.</p>
+                            <a href="#"><i class="bx bx-link-external" style="color: aliceblue;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact<span>Me</span></h2>
+            <h4>Let's work Top</h4>
+            <p></p>
+            <div class="contact-list">
+                <li><i class='bx  bxs-send-alt'></i> sreedevkrishna700@gmail.com</li>
+                <li><i class='bx  bxs-phone'></i>9847825919</li>
+            </div>
+            <div class="contact-icons">
+                <a href="https://facebook.com"><i class='bx bxl-facebook-circle'></i></a>
+                <a href=""><i class='bx bxl-twitter'></i></a>
+                <a href=""><i class='bx bxl-instagram'></i></a>
+                <a href=""><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="Images\SREEDEV-KRISHNA_ RESUME2025.pdf" download class="btn-box" style="padding: 20px;" id="CVbutton">Download CV</a>
+
+
+        </div>
+        <div class="contact-form">
+            <form action="">
+                <input type="" placeholder="Enter Your Name" required>
+                <input type="email" placeholder="Enter Your Email" required>
+                <input type="" placeholder="Enter Your Subject">
+                <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message"></textarea>
+                <input type="submit" value="submit" class="send">
+            </form>
+        </div>
+    </section>
+    <div class="last-text">
+
+        <a href="#" class="top"><i class="bx bx-up-arrow-alt"></i></a>
+        <p>Designed and developed with passion and purpose by Sreedev Krishna © 2025</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="Content.js"></script>
+</body>
+
+</html>
